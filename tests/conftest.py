@@ -9,13 +9,12 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from multiply_backend_coding_task.main import app
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture(scope="session")
 def test_client():
-
     testing_client = app.test_client()
 
     ctx = app.app_context()
     ctx.push()
-    with app.test_request_context('/'):
+    with app.test_request_context("/"):
         yield testing_client
     ctx.pop()

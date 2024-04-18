@@ -7,6 +7,6 @@ USER_STORE = {}
 GOAL_STORE = {}
 
 
-@app.route('/')
+@app.route("/")
 def hello_world():
-    return 'Hello, world!'
+    return "Hello, world!"
