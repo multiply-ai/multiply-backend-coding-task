@@ -59,4 +59,6 @@ We have provided you with a basic set up, which uses [Poetry](https://python-poe
 
 Feel free to use any additional libraries you may need. README should contain details on how to install, run and test your code.
 
+**Please send a zipped file of your code, including any comments to mike@multiply.ai.**
+
 Good luck!
